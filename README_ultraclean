@@ -1,0 +1,146 @@
+# Ultra Clean Mobile Services
+
+A modern mobile booking and management application built with Kivy and SQLite for Ultra Clean Mobile Services (PTY) Ltd.
+
+## Overview
+
+Ultra Clean Mobile Services allows customers to conveniently book cleaning services directly from their mobile device while providing business owners with a dashboard to manage bookings and service requests.
+
+The application is designed for service-based businesses that offer on-site cleaning services.
+
+## Features
+
+### Customer Features
+- Browse available cleaning services
+- Book appointments directly through the app
+- Select preferred date and time
+- Provide service location and special instructions
+- Receive booking confirmation
+
+### Services Offered
+- Mobile Car Washing
+- Couch Cleaning
+- Mattress Cleaning
+- Rug Cleaning
+- Curtain Cleaning
+- Chair Cleaning
+- Built-in Carpet Cleaning
+- Specialized Upholstery Cleaning
+- Ottoman Cleaning
+
+### Business Owner Features
+- Secure owner login
+- View all bookings
+- Filter bookings by status
+- Booking statistics dashboard
+- Update booking statuses:
+  - Pending
+  - Confirmed
+  - Completed
+  - Cancelled
+
+### Database
+- SQLite database integration
+- Persistent booking storage
+- Automatic database creation
+- Booking history management
+
+## Technology Stack
+
+- Python
+- Kivy
+- SQLite3
+
+## Project Structure
+
+```
+project/
+│
+├── main.py
+├── data/
+│   └── ultraclean.db
+│
+└── README.md
+```
+
+## Installation
+
+### Prerequisites
+
+- Python 3.10+
+- Kivy
+
+### Install Dependencies
+
+```bash
+pip install kivy
+```
+
+### Run the Application
+
+```bash
+python main.py
+```
+
+## Owner Access
+
+Default Owner PIN:
+
+```text
+1234
+```
+
+> Important: Change the default PIN before deploying the application in a production environment.
+
+## Database
+
+The application automatically creates:
+
+```text
+data/ultraclean.db
+```
+
+and stores booking information including:
+
+- Customer Name
+- Phone Number
+- Address
+- Service Type
+- Booking Date
+- Booking Time
+- Notes
+- Status
+- Creation Timestamp
+
+## Future Improvements
+
+- SMS Notifications
+- Email Notifications
+- Online Payments
+- Customer Accounts
+- Booking Calendar View
+- Staff Management
+- GPS Location Services
+- Cloud Database Integration
+
+## Screens
+
+- Home Screen
+- Booking Screen
+- About Us Screen
+- Why Choose Us Screen
+- Owner Login Screen
+- Owner Dashboard Screen
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+Dumisani Ndlovu
+
+Ultra Clean Mobile Services (PTY) Ltd
+
+---
+Built with Python, Kivy and SQLite.
